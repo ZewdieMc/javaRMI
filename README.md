@@ -21,6 +21,11 @@ Now do the following to invoke the server from a remote Client:
 
 <b>Note:</b>This Server - Client code for the calculator was implemented assuming that both the client and the server lay on the same machine. <br>
 <b>Future work:</b> The code will be modified in such a way that the server and the client are working on different machines.
+This can easily be done like:<br>
+<code>
+  Naming.rebind("rmi://"+Ip_address+":"+registry_port+"/"+remote_object,remote_obj);
+</code>
+<br> The <code>Ip_address</code> is the Internet address of the remote host where the server code is running.
 
 
 
