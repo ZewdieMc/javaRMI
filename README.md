@@ -2,7 +2,7 @@ The java RMI implemenetation for Bank System, Calculator and Chat are stored in 
 <ul>
 <li>Bank</li>
 <li>Calculator</li>
-<li>Chat<li>
+<li>Chat</li>
 </ul>
 In the Calculator RMI application, you need to do the following: <br>
 <ol>
